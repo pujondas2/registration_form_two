@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Montserrat;
+    background-color: #EAECEB;
+}
+
+form {
+    width: 700px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+}
+
+form legend {
+    font-size: 25px;
+    background: #2FB0D7;
+    padding: 15px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+form .form-area {
+    padding: 50px 120px;
+}
+
+form .form-area .form-item {
+    width: 40%;
+    margin-right: 80px;
+    float: left;
+}
+
+form .form-area .form-item:nth-child(2),
+form .form-area .form-item:nth-child(4) {
+    margin-right: 0;
+}
+
+form .form-area .form-item,
+form .form-area .form-item-fullwidth {
+    margin-bottom: 20px;
+}
+
+.form-item-fullwidth {
+    width: 100%;
+}
+
+input {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    font-family: Montserrat;
+    outline: 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-family: Montserrat;
+}
+
+.button {
+    text-align: center;
+}
+
+.submit_btn {
+    border: 0;
+    background-color: #393939;
+    color: #ffffff;
+    padding: 10px 40px;
+    font-family: Montserrat;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
